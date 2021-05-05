@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_cca_rights_definition
+    - taxonomy.vocabulary.cca_rights
+id: taxonomy_term.cca_rights.field_cca_rights_definition
+field_name: field_cca_rights_definition
+entity_type: taxonomy_term
+bundle: cca_rights
+label: Definition
+description: 'Formal rights text.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

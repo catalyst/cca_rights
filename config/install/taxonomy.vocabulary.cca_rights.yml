@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Rights
+vid: cca_rights
+description: 'Rights statements and Creative Commons licences'
+weight: 0

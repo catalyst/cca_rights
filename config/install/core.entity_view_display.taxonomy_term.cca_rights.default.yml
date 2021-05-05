@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.cca_rights.field_cca_rights_definition
+    - field.field.taxonomy_term.cca_rights.field_cca_rights_version
+    - field.field.taxonomy_term.cca_rights.field_external_uri
+    - taxonomy.vocabulary.cca_rights
+  module:
+    - link
+    - text
+id: taxonomy_term.cca_rights.default
+targetEntityType: taxonomy_term
+bundle: cca_rights
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_cca_rights_definition:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_cca_rights_version:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_external_uri:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

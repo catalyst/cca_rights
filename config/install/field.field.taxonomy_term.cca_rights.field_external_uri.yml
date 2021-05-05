@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_external_uri
+    - taxonomy.vocabulary.cca_rights
+  module:
+    - link
+id: taxonomy_term.cca_rights.field_external_uri
+field_name: field_external_uri
+entity_type: taxonomy_term
+bundle: cca_rights
+label: 'External URI'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

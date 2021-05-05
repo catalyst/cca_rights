@@ -1,0 +1,13 @@
+name: 'CCA Rights'
+description: 'Standardized Rights Statements from RightsStatements.org and Creative Commons.'
+type: module
+core_version_requirement: '^8.9 || ^9'
+dependencies:
+  - field
+  - language
+  - link
+  - path
+  - taxonomy
+  - text
+version: 8.x-1.0-alpha1
+package: CCA
