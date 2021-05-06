@@ -10,12 +10,12 @@ source:
   plugin: embedded_data
   data_rows:
     -
-      id: 'https://creativecommons.org/licenses/by/4.0'
+      id: 'https://creativecommons.org/licenses/by/4.0/'
       prefLabel: 'Attribution'
       identifier: 'CC BY'
       versionInfo: '4.0'
     -
-      id: 'https://creativecommons.org/licenses/by-sa/4.0'
+      id: 'https://creativecommons.org/licenses/by-sa/4.0/'
       prefLabel: 'Attribution-ShareAlike'
       identifier: 'CC BY-SA'
       description: "You are free to:\n
@@ -25,25 +25,30 @@ source:
                     This license is acceptable for Free Cultural Works. The licensor cannot revoke these freedoms as long as you follow the license terms."
       versionInfo: '4.0'
     -
-      id: 'https://creativecommons.org/licenses/by-nd/4.0'
+      id: 'https://creativecommons.org/licenses/by-nd/4.0/'
       prefLabel: 'Attribution-NoDerivs'
       identifier: 'CC BY-ND'
       versionInfo: '4.0'
     -
-      id: 'https://creativecommons.org/licenses/by-nc/4.0'
+      id: 'https://creativecommons.org/licenses/by-nc/4.0/'
       prefLabel: 'Attribution-NonCommercial'
       identifier: 'CC BY-NC'
       versionInfo: '4.0'
     -
-      id: 'https://creativecommons.org/licenses/by-nc-sa/4.0'
+      id: 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
       prefLabel: 'Attribution-NonCommercial-ShareAlike'
       identifier: 'CC BY-NC-SA'
       versionInfo: '4.0'
     -
-      id: 'https://creativecommons.org/licenses/by-nc-nd/4.0'
+      id: 'https://creativecommons.org/licenses/by-nc-nd/4.0/'
       prefLabel: 'Attribution-NonCommercial-NoDerivs'
       identifier: 'CC BY-NC-ND'
       versionInfo: '4.0'
+    -
+      id: 'https://creativecommons.org/publicdomain/zero/1.0/'
+      prefLabel: 'Universal Public Domain Dedication'
+      identifier: 'CC0'
+      versionInfo: '1.0'
   ids:
     id:
       type: string
@@ -63,6 +68,7 @@ process:
     plugin: default_value
     default_value: ')'
 
+  # Composite term name used in selects, e.g. "prefLabel (identifier) version".
   name:
     plugin: concat
     source:
