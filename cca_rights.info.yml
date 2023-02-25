@@ -9,5 +9,5 @@ dependencies:
   - path
   - taxonomy
   - text
-version: 8.x-1.0-alpha3
+version: 8.x-1.0-alpha4
 package: CCA
