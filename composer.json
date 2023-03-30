@@ -4,7 +4,5 @@
     "description": "Catalyst Community Archive Rights",
     "homepage": "https://github.com/catalyst/cca_rights",
     "license": "GPL-2.0+",
-    "require": {
-        "drupal/search_api_solr": "^4.1"
-    }
+    "require": {}
 }

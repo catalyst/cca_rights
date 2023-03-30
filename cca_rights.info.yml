@@ -1,13 +1,13 @@
 name: 'CCA Rights'
 description: 'Standardized Rights Statements from RightsStatements.org and Creative Commons.'
 type: module
-core_version_requirement: '^8.9 || ^9'
+core_version_requirement: ^9 || ^10
 dependencies:
-  - field
-  - language
-  - link
-  - path
-  - taxonomy
-  - text
+  - drupal:field
+  - drupal:language
+  - drupal:link
+  - drupal:path
+  - drupal:taxonomy
+  - drupal:text
 version: 8.x-1.0-alpha4
 package: CCA
