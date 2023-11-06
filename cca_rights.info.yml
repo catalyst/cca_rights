@@ -9,5 +9,4 @@ dependencies:
   - drupal:path
   - drupal:taxonomy
   - drupal:text
-version: 8.x-1.0-alpha4
 package: CCA
