@@ -2,7 +2,7 @@
 
 **Deprecated - please install from https://www.drupal.org/project/cca_rights**
 
-A Drupal 8 feature module that creates a CCA Rights taxonomy and uses Migrate framework to generate some Creative Commons and Rights Statements.org licenses as taxonomy terms. Includes a field formatter to show CC icons with CC license URLs.
+A Drupal 9/10 feature module that creates a CCA Rights taxonomy and uses Migrate framework to generate some Creative Commons and Rights Statements.org licenses as taxonomy terms. Includes a field formatter to show CC icons with CC license URLs.
 
 * Enable module
 * Import terms
